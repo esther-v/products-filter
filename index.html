@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products Filter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Products Filter</h1>
+        <div class="search-box">
+            <form action="" onsubmit="return false">
+                <input type="text" id="search" placeholder="Search Prodcut">
+                <button id="btn-search">Search</button>
+            </form>
+        </div>
+        <div class="filter-box">
+            <a href="#" class="btn active" data-filter="all">All</a>
+            <a href="#" class="btn" data-filter="sofa">Sofa</a>
+            <a href="#" class="btn" data-filter="table">Table</a>
+            <a href="#" class="btn" data-filter="lamp">Lamp</a>
+            <a href="#" class="btn" data-filter="tapis">Tapis</a>
+        </div>
+    </header>
+
+    <main>
+        <div class="slide-container">
+            <section class="container" id="store-products">
+
+                <div class="store-product sofa">
+                    <img src="" alt="">
+                    <div class="product-details">
+                        <h2>Sofa</h2>
+                        <p>$100.00</p>
+                        <a href="#">Add to cart</a>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
