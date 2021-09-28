@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    width: 250px;
+    height: 200px;
+    object-fit: cover;
+}
+
+header{
+    background: lightgray;
+    padding: 15px;
+}
+
+.active{
+    background:darkgreen
+}
+
+.container{
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    margin: 20px auto;
+    max-width: 1000px;
+    border: 1px solid blue;
+
+}
+
+.store-product{
+    margin-bottom: 30px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
